@@ -1,0 +1,45 @@
+JFDML JFormDesigner: "8.0.5.0.268" Java: "17.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {space :p:14:p, par t {comp save:::::x, comp capture::l:::x, seq l {space :0:0:x, comp imageHolder:::p:320:p}}, space :p:40:p, par t {comp brightness::t:p:200:p, comp contrast::t:p:200:p, comp whiteBlack::t:p:200:p, comp share::t:p:200:p}, space :p:24:p}}"
+			"$verticalGroup": "par l {seq l {space :p:31:p, par l {comp imageHolder::l:p:239:p, seq l {comp brightness:::p:66:p, space :::p, comp contrast:::p:66:p, space u:::p, comp whiteBlack:::p:66:p}}, space :::p, par l:::p {seq {comp capture:::p:54:p, space u:::p, comp save:::p:54:p}, comp share:::::x}, space ::18:x}}"
+		} ) {
+			name: "this"
+			"title": "jFrame"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "imageHolder"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "capture"
+				"text": "Resim Çek"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "capture", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "save"
+				"text": "Kaydet"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "brightness"
+				"text": "Aydınlat"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "contrast"
+				"text": "Karart"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "whiteBlack"
+				"text": "Siyah -  Beyaz"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "share"
+				"text": "PAYLAŞ"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 600, 445 )
+		} )
+	}
+}

@@ -1,0 +1,26 @@
+
+g	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8ÿííÄ†1
+g	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8€îíÄ†1
+h	java:S112Ë"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8€îíÄ†1
+
+java:S11923"bDefine a constant instead of duplicating this literal "LÃ¼tfen Ã–nce Bir Resim Ã‡ekiniz!" 5 times.(Â›Áû8ƒîíÄ†1
+N
+java:S1948",Make "imageSaver" transient or serializable.(Š–É„ûÿÿÿÿ8¡îíÄ†1
+M
+java:S1948"0Make "videoFeedTaker" transient or serializable.(ÇØ‹Æ8¡îíÄ†1
+F
+java:S1948")Make "filters" transient or serializable.( ÂØó8¡îíÄ†1
+E
+java:S1948"(Make "webcam" transient or serializable.(ÀÚŠœ8¡îíÄ†1
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(›ø¢38£îíÄ†1
+N
+java:S1874"",Remove this use of "stop"; it is deprecated.(—ÄØ×şÿÿÿÿ8¥îíÄ†1
+|
+java:S2142Ê"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¸îíÄ†1
+F
+java:S1172Ñ"(Remove this unused method parameter "e".(ç‚Ö²8¼îíÄ†1
+P
+java:S1135Ò"2Complete the task associated to this TODO comment.(¿‰€ÿ8½îíÄ†1
+J
+java:S1144Ñ",Remove this unused private "capture" method.(ç‚Ö²8¾îíÄ†1
